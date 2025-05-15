@@ -1,0 +1,38 @@
+ideologies = {
+	liberal_conservatism = { #自由保守主義
+		types = {
+			tridemism = { #三民主義
+				can_be_randomly_selected = no
+			}
+			constitutionalism = { #護憲主義
+				can_be_randomly_selected = no
+			}
+			constitutional_liberalism = { #立憲自由主義
+				can_be_randomly_selected = no
+			}
+			market_liberalism = { # 市場自由主義
+				can_be_randomly_selected = no
+			}
+			christian_democracy = { #キリスト教民主主義
+				can_be_randomly_selected = no
+			}
+		}
+		color = { 40 75 190 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

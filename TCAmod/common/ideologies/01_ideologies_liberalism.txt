@@ -1,0 +1,47 @@
+ideologies = {
+	liberalism = { #自由主義
+		types = {
+			neoliberalism = { #新自由主義
+				can_be_randomly_selected = no
+			}
+			libertarianism = { #リバタリアニズム
+				can_be_randomly_selected = no
+			}
+			classical_liberalism = { #古典的自由主義
+				can_be_randomly_selected = no
+			}
+			progressive_liberalism = { #進歩的自由主義
+				can_be_randomly_selected = no
+			}
+			big_tent = { #包括政党
+				can_be_randomly_selected = no
+			}
+			national_liberalism = { #国家自由主義
+				can_be_randomly_selected = no
+			}
+			militant_democracy = { #戦闘的民主主義
+				can_be_randomly_selected = no
+			}
+			defensive_democracy = { #防衛的民主主義
+				can_be_randomly_selected = no
+			}
+		}
+		color = { 120 165 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

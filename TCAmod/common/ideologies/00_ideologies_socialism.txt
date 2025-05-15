@@ -1,0 +1,83 @@
+ideologies = {
+	socialism = { #社会主義
+		types = {
+			communism = { #共産主義
+				can_be_randomly_selected = no
+			}
+			spartacism = { #スパルタキシズム
+				can_be_randomly_selected = no
+			}
+			syndicalism = { #サンディカリズム
+				can_be_randomly_selected = no
+			}
+			anarcho_communism = { #アナルコ・コミュニズム
+				can_be_randomly_selected = no
+			}
+			christian_socialism = { #キリスト教社会主義
+				can_be_randomly_selected = no
+			}
+			islamic_socialism = { #イスラム教社会主義
+				can_be_randomly_selected = no
+			}
+			buddhist_socialism = { #仏教社会主義
+				can_be_randomly_selected = no
+			}
+			agrarian_socialism = { #農本社会主義
+				can_be_randomly_selected = no
+			}
+			african_socialism = { #アフリカ社会主義
+				can_be_randomly_selected = no
+			}
+			panafricanism = { #汎アフリカ主義
+				can_be_randomly_selected = no
+			}
+			baathism = { #バアス主義
+				can_be_randomly_selected = no
+			}
+			revolutionary_front = { #革命戦線
+				can_be_randomly_selected = no
+			}
+			left_wing_nationalism = { #左翼ナショナリズム
+				can_be_randomly_selected = no
+			}
+			totalitarianism = { #全体社会主義
+				can_be_randomly_selected = no
+			}
+			national_communism = { #民族共産主義
+				can_be_randomly_selected = no
+			}
+			left_wing_communism = { #左翼共産主義
+				can_be_randomly_selected = no
+			}
+			stratocratic_Communism = { #軍政共産主義
+				can_be_randomly_selected = no
+			}
+			workerism = { #労働者主義
+				can_be_randomly_selected = no
+			}
+			primitive_communism = { #原始共産主義
+				can_be_randomly_selected = no
+			}
+			monarchical_socialism	= { #君主制社会主義
+				can_be_randomly_selected = no
+			}
+		}
+		color = { 190 20 20 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

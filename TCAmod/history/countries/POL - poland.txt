@@ -1,0 +1,27 @@
+capital = 64
+
+set_research_slots = 5
+set_stability = 0.42
+set_war_support = 0.59
+set_convoys = 1000
+
+set_technology = 5
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1964.5.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+	neutrality = 0
+}
+create_country_leader = {
+	name = 
+	picture = 
+	ideology = national_liberalism
+} 
